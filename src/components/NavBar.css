@@ -1,0 +1,19 @@
+
+h2{
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+}
+h1{
+    font-size: 35px;
+    color:black;
+}
+.titletext{
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+hr{
+    margin-top: 5rem;
+    width: 78.67%;
+    position: relative;
+    left: -20rem;
+}

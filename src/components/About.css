@@ -1,0 +1,24 @@
+.about-container{
+    margin-top: 5rem;
+    display: flex;
+}
+.about-child{
+    margin: 2rem;
+    padding: 0rem;
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+    justify-content: center;
+}
+.hi{
+    left: 0.5rem;
+    position: relative;
+}
+p{
+    font-size: 1.1rem;
+    line-height: 2;
+}
+.bottomtextsectionline{
+    margin-bottom:2rem;
+    padding:0;
+    margin:2rem
+}
