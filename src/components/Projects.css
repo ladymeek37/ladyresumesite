@@ -1,0 +1,49 @@
+.projectspage{
+    padding-top: 200px;
+}
+.myprojstxt{
+    padding-bottom: 100px;
+}
+.titletxt{
+    padding-top: 3rem;
+    color: black;
+    letter-spacing: normal;
+    padding-bottom: 4rem;
+}
+
+.styled-underline {
+    text-decoration-line: underline;
+    text-decoration-color: #9E9E9E;
+    text-decoration-thickness: 0.15rem;
+    margin-top: 2px;
+    text-underline-offset: 2.5rem;
+  }
+
+.linktext{
+    padding-left: 0rem;
+    top: 4rem;
+    color:black;
+} 
+
+.linktext:hover{
+    color:rgb(117, 115, 115);
+}
+
+
+.linktext:active {
+    color: black;
+  }
+
+.projectcontainer{
+    display: flex;
+}
+
+.projectchild{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.projectinfotext{
+    line-height: 1.9rem;
+}

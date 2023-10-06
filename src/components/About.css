@@ -9,16 +9,26 @@
     margin-right: 6rem; */
     justify-content: center;
 }
-.hi{
+/* .hi{
     left: 0.5rem;
     position: relative;
-}
+} */
 p{
     font-size: 1.1rem;
-    line-height: 2;
+    line-height: 3;
 }
 .bottomtextsectionline{
     margin-bottom:2rem;
     padding:0;
     margin:2rem
+}
+
+.aboutline{
+    margin-top: 5rem;
+    width: 120%;
+    position: relative;
+    left: -30rem;
+    border-width: 4px;
+    border: none;
+    border-top: 2px solid #9E9E9E;
 }

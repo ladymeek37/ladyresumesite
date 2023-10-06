@@ -4,11 +4,11 @@ import "./About.css"
 const AboutSection = () => {
     return ( 
         <html>
-        <head>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet" />
-        </head>
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet" />
+            </head>
         <body>
             <div className="about-container">
                 <div className="about-child">
@@ -30,6 +30,7 @@ const AboutSection = () => {
                     <p className="bottomtextsectionline">Outside of coding, I am an avid skateboarder and surfer. I enjoy cooking, embroidery, creating art and traveling. </p>
                     <p className="bottomtextsectionline">Whether you're a business owner looking to get started on a web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together. </p>
             </div>
+            <hr classname= "aboutline" />
         </body>
     </html>
      );

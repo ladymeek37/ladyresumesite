@@ -1,11 +1,15 @@
-
+/* Lady Meek */
 h2{
+    letter-spacing: 4px;
     font-size: 30px;
-    color: rgb(63, 63, 63);
+    margin-bottom: 5px;
+    color: rgb(139, 139, 139);
 }
+/* Website Development */
 h1{
-    font-size: 35px;
+    font-size: 45px;
     color:black;
+    margin-top: 0px;
 }
 .titletext{
     padding-top: 1rem;
@@ -16,4 +20,6 @@ hr{
     width: 78.67%;
     position: relative;
     left: -20rem;
+    border: none; /* Remove the default border */
+    border-top: 2px solid #9E9E9E;
 }
