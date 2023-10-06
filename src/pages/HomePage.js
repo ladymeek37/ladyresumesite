@@ -1,6 +1,7 @@
 import "./HomePage.css"
 import AboutSection from "../components/About";
 import ProjectsSection from "../components/Projects";
+import TestimonialsSection from "../components/Testimonials";
 
 const HomePage = () => {
     return ( 
@@ -14,6 +15,7 @@ const HomePage = () => {
                 <div className="homepage">
                     <AboutSection />
                     <ProjectsSection />
+                    <TestimonialsSection />
                 </div>
             </body>
         </html>
