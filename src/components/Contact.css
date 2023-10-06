@@ -1,0 +1,55 @@
+.contactsection{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.contacttext{
+    padding-bottom: 6rem;
+}
+
+.contactparent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactchild{
+    margin: 0rem;
+
+}
+
+.inputinfo{
+    margin: -0.3rem;
+    line-height: 3;
+}
+
+.box{
+    margin-bottom: 1.7rem;
+    padding: 0.7rem;
+    border: 1.3px solid #000;
+    width: 27rem;
+    font-size: 16px;
+}
+
+.button{
+    border: 1.3px solid #000;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: .5rem;
+}
+
+.button:hover{
+    background-color: rgb(165, 163, 167);
+}
+
+.namesection{
+    margin-right: 5rem;
+}
+
+.subjectbox{
+    width: 60rem
+}

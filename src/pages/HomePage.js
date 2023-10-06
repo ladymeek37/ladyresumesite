@@ -2,6 +2,7 @@ import "./HomePage.css"
 import AboutSection from "../components/About";
 import ProjectsSection from "../components/Projects";
 import TestimonialsSection from "../components/Testimonials";
+import ContactSection from "../components/Contact";
 
 const HomePage = () => {
     return ( 
@@ -16,6 +17,7 @@ const HomePage = () => {
                     <AboutSection />
                     <ProjectsSection />
                     <TestimonialsSection />
+                    <ContactSection />
                 </div>
             </body>
         </html>

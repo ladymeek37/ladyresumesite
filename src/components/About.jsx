@@ -30,7 +30,7 @@ const AboutSection = () => {
                     <p className="bottomtextsectionline">Outside of coding, I am an avid skateboarder and surfer. I enjoy cooking, embroidery, creating art and traveling. </p>
                     <p className="bottomtextsectionline">Whether you're a business owner looking to get started on a web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together. </p>
             </div>
-            <hr />
+            <hr classname= "aboutline" />
         </body>
     </html>
      );
