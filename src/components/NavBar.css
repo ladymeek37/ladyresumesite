@@ -14,12 +14,45 @@ h1{
 .titletext{
     padding-top: 1rem;
     padding-left: 5rem;
+    text-decoration: none;
 }
-hr{
+.navbarline{
     margin-top: 5rem;
     width: 78.67%;
     position: relative;
     left: -20rem;
+    bottom: 7rem;
     border: none; /* Remove the default border */
     border-top: 2px solid #9E9E9E;
 }
+
+.navtext{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.option{
+    margin: 0%;
+    padding: 20px;
+    display: inline;
+}
+
+.navchoices{
+    position: relative;
+    bottom: 85px;
+    right: 4rem;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  .navbarbody{
+    margin-bottom: 0px;
+  }
+

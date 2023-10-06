@@ -10,4 +10,10 @@
 .homepage{
     padding-left: 20%;
     padding-right: 20%;
+    position: relative;
+    bottom: 7rem;
 }
+
+html {
+    scroll-behavior: smooth;
+  }

@@ -53,3 +53,8 @@
 .subjectbox{
     width: 60rem
 }
+
+.messagebox{
+    width: 60rem;
+    height: 17rem;
+}

@@ -48,7 +48,7 @@ const ContactSection = () => {
                             </div>
                             <div className= "contactchild">
                                 <p className='inputinfo'>Message</p>
-                                <textarea className='inputinfo box subjectbox' name = "message" cols='30' rows= "10"></textarea> 
+                                <textarea className='inputinfo box messagebox' name = "message" cols='30' rows= "10"></textarea> 
                             </div>
                             <button className= "contactchild button" type = "submit">send</button>
                         </form>

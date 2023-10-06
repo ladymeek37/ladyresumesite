@@ -14,10 +14,18 @@ const HomePage = () => {
             </head>
             <body>
                 <div className="homepage">
-                    <AboutSection />
-                    <ProjectsSection />
-                    <TestimonialsSection />
-                    <ContactSection />
+                    <div id="about">
+                        <AboutSection />                        
+                    </div>
+                    <div id="projects">
+                        <ProjectsSection />                        
+                    </div>
+                    <div id="testimonials">
+                        <TestimonialsSection />                        
+                    </div>
+                    <div id="contact">
+                        <ContactSection />                        
+                    </div>
                 </div>
             </body>
         </html>
