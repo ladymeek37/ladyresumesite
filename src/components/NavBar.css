@@ -1,11 +1,114 @@
-/* Lady Meek */
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: portrait) {
+
+    .navbarbody{
+      height:fit-content !important
+    }
+
+    .titletext{
+      padding-left: 4px !important;
+      position: relative;
+      left:9%
+
+    }
+
+    .ladytext{
+      position: relative !important;
+      font-size: 1.5rem !important;
+      top: .5rem !important;
+    }
+
+    .wdtext{
+      font-size: 2rem !important;
+      letter-spacing: 0rem !important;
+    }
+
+    .option{
+      margin: 0% !important;
+      display: inline !important;
+      font-size: .5rem !important;
+      padding: 0 !important;
+    }
+
+    .navchoices{
+      bottom: 2% !important;
+      right: 45% !important;
+      display: block
+
+    }
+
+    ul{
+      padding-left: 12% !important;
+    }
+
+
+}
+
+@media only screen
+  and (max-device-width: 768px)
+  and (orientation: landscape){
+    .navbarbody{
+      height:100% !important;
+      position: fixed !important;  /* Fixed positioning to the left */
+      top: 0 !important; /* Position at the top of the screen */
+      left: 5 !important; /* Position at the left side of the screen */
+      bottom: 0 !important; /* Extend to the bottom of the screen */
+      width: 14rem !important;
+    }
+    .wdtext{
+      position: relative;
+      right: 2rem;
+      letter-spacing: -.05rem;
+      font-size: 25px !important;
+    }
+    .ladytext{
+      margin-top: 0%;
+      letter-spacing: 0rem !important;
+      position: relative;
+      right: 2rem !important;
+    }
+    .navchoices{
+      bottom: 2% !important;
+      right: 1rem !important;
+
+    }
+    ul{
+      padding-top: 5%;
+      display: block !important;
+      position: relative !important;
+      right:1rem !important
+    }
+  }
+
+
+
+/* Only for setting up the element */
+header{
+  width: 106%;
+  position: fixed;
+  left: -3%;
+  height: 13%;
+  top: -2%;
+}
+
+.wdtext{
+  font-size: 2.5rem;
+  margin-top: 0%;
+  padding-top: 1%;
+}
+
+.ladytext{
+  color: rgb(125, 124, 124);
+  margin-bottom: 0px !important;
+}
+
 h2{
     letter-spacing: 4px;
     font-size: 30px;
     margin-bottom: 5px;
-    color: rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
 }
-/* Website Development */
 h1{
     font-size: 45px;
     color:black;
@@ -15,14 +118,14 @@ h1{
     padding-top: 1rem;
     padding-left: 5rem;
     text-decoration: none;
+    font-size: 20rem;
 }
 .navbarline{
-    margin-top: 5rem;
-    width: 78.67%;
+    margin-top: 8rem;
+    width: 135.67%;
     position: relative;
-    left: -20rem;
-    bottom: 7rem;
-    border: none; /* Remove the default border */
+    left: 3rem;
+    border: none;
     border-top: 2px solid #9E9E9E;
 }
 
@@ -40,8 +143,8 @@ h1{
 .navchoices{
     position: relative;
     bottom: 85px;
-    right: 4rem;
-    margin-right: 30px;
+    bottom: 49%;
+    right: 6rem;
     display: flex;
     flex-direction: row-reverse;
   }
@@ -50,9 +153,17 @@ h1{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    position: relative;
+    bottom: -40%;
   }
 
   .navbarbody{
     margin-bottom: 0px;
+    z-index: 1000;
+    background-color: #eeecec;
+    height: 21%;
   }
 
+a{
+    text-decoration: none;
+  }

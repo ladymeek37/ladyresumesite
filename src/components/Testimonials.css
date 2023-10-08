@@ -1,6 +1,24 @@
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+    .testimonialssection{
+        padding-left: 2rem !important;;
+        padding-top: 6rem !important;
+        padding-bottom: 3rem !important;
+
+}
+}
+
 .testimonialssection{
-    padding-top: 10rem;
+    padding-top: 11rem;
+    padding-bottom: 4rem;
+
 }
 .testimonialstitletext{
     padding-bottom: 1rem;
+}
+.testimonialtext{
+    line-height: 2.2rem;
 }

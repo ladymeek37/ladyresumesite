@@ -29,10 +29,9 @@ const ContactSection = () => {
                         <h1>Contact:</h1>
                         <p>Let's build something!</p>
                     </div>
-                    <div className = "contactparent">
+                    <div className='contactparent'>
                         <form ref = {form} onSubmit={sendEmail}>
-                            <div className = "contactparent">
-                                <div className='namesection'>
+                                <div className="contactchild">
                                     <p className='inputinfo'>Full Name</p>
                                     <input className='inputinfo box'type = "text" name = "user_name" required />                                
                                 </div>
@@ -40,7 +39,6 @@ const ContactSection = () => {
                                     <p className='inputinfo'> Email</p>
                                     <input className='inputinfo box' type = "email" name = "user_email" required />
                                 </div>                                
-                            </div>
 
                             <div className= "contactchild">
                                 <p className='inputinfo'>Subject</p>
@@ -50,7 +48,7 @@ const ContactSection = () => {
                                 <p className='inputinfo'>Message</p>
                                 <textarea className='inputinfo box messagebox' name = "message" cols='30' rows= "10"></textarea> 
                             </div>
-                            <button className= "contactchild button" type = "submit">send</button>
+                            <button className= "contactchild button" type = "submit">Send Message</button>
                         </form>
                     </div>                    
                 </section>

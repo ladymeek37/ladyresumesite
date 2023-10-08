@@ -14,7 +14,7 @@ const TestimonialsSection = () => {
                         <h1>Testimonials:</h1>
                     </div>
                     <div>
-                        <p>“Lady helped me build the website of my dreams. You can tell that she built this website with love and consideration for what I was looking for. I definitely enjoyed working with Lady, and I strongly recommend her to anyone small business owner who needs a site.”          - Amanda Joe, owner of Good for You Bakery</p>
+                        <p className="testimonialtext">“Lady created a super cool website for me. She did it in a timely fashion, and added a lot of features that I really like. I would highly recommend her to anyone." - Joel, Owner of CRLW</p>
                     </div>                    
                 </div>
                 <hr/>

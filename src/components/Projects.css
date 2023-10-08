@@ -1,8 +1,32 @@
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+    .projectspage{
+        padding-left: 2rem !important;
+        padding-top: 4rem !important;
+    }
+    .myprojstxt{
+        padding-bottom: 0rem !important;
+    }
+    h2{
+        font-size: 1.3rem !important;
+        padding-bottom: 1rem !important;
+    }
+    .styled-underline{
+        text-underline-offset: .2rem !important;
+    }
+    .projectcontainer{
+        display: block !important;
+    }
+}
+
 .projectspage{
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 .myprojstxt{
-    padding-bottom: 100px;
+    padding-bottom: 4rem;
 }
 .titletxt{
     padding-top: 3rem;
@@ -14,7 +38,7 @@
 .styled-underline {
     text-decoration-line: underline;
     text-decoration-color: #9E9E9E;
-    text-decoration-thickness: 0.15rem;
+    text-decoration-thickness: 0.03rem;
     margin-top: 2px;
     text-underline-offset: 2.5rem;
   }
@@ -42,8 +66,9 @@
     margin: 2rem;
     display: flex;
     align-items: center;
+    margin-left: 0px;
 }
 
 .projectinfotext{
-    line-height: 1.9rem;
+    line-height: 2.2rem;
 }

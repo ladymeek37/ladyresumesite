@@ -19,7 +19,7 @@ const ProjectsSection = () => {
                     <div>
                         <div>
                             <h2 className="titletxt"><span class="styled-underline">Costa Rica Live Water Properties</span></h2>
-                            <a  href="crlwproperties.com/laonda" className="linktext" target="_blank">crlwproperties.com</a>
+                            <a  href="http://crlwproperties.com/LaOnda" className="linktext" target="_blank">crlwproperties.com/LaOnda</a>
                             <div className="projectcontainer">
                                 <img className="projectchild"src={CRLW} height='130' width='130'/>
                                 <p className="projectchild projectinfotext">Using mySQL, Python, React, and JavaSript, I built and created the database, backend, and frontend for this private property inventory website. The homepage is private, but as requested by the client, individual property pages are public. Linked above is the property page for the “La Onda” property. Featuring photo galleries, YouTube videos, and information on the property.  </p>                               

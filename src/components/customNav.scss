@@ -1,0 +1,42 @@
+$light: rgb(216, 216, 216);
+
+@media only screen and (max-device-width: 768px) {
+    .navbar {
+      height: auto;
+      background-color: aqua;
+    }
+  
+    .navbar-title.navbar-brand {
+      font-size: 24px; // Reduce font size for smaller screens
+      // You can adjust other styles as needed for smaller screens
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 18px; // Reduce font size for smaller screens
+      // You can adjust other styles as needed for smaller screens
+    }
+  }
+
+.navbar-nav .nav-link {
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    margin-right: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar-title.navbar-brand {
+    font-size: 34px;
+    font-family: Helvetica Neue;
+    letter-spacing: .2rem;
+    // position: relative;
+    // right: 8rem;
+  }
+
+.lady.navbar-brand{
+    color: rgb(149, 148, 148)
+}
+
+
+
+@import "~bootstrap/scss/bootstrap.scss";

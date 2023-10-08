@@ -1,3 +1,40 @@
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      }
+    .about-container{
+        display: block !important;
+    }
+
+    hr{
+        left: -6.5rem !important;
+        width: 70.67% !important;
+    }
+
+}
+@media only screen
+and (max-device-width: 768px)
+and (orientation: landscape){
+    .about-container{
+        margin-top: 0% !important;
+    }
+    .aboutimage{
+        height: 0px;
+        width:0px;
+        /* Add other styles to move the image to a different location here */
+      }
+
+}
+
+
 .about-container{
     margin-top: 5rem;
     display: flex;
@@ -15,7 +52,7 @@
 } */
 p{
     font-size: 1.1rem;
-    line-height: 2;
+    line-height: 2.3;
 }
 .bottomtextsectionline{
     margin-bottom:2rem;

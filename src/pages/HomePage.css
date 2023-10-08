@@ -1,17 +1,39 @@
-/* @media only screen
+@media only screen
   and (max-device-width: 768px)
   and (orientation: portrait) {
     .homepage{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 70% !important;
     }
-} */
+
+    p{
+      line-height: 1.5;
+    }
+
+    h1{
+      font-size: 1.8rem !important;
+    }
+
+  }
+
+  @media only screen
+  and (max-device-width: 768px)
+  and (orientation: landscape){
+    .homepage{
+      position: relative;
+      left:4rem;
+      padding-top: 0%;
+    }
+    
+  }
 
 .homepage{
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     position: relative;
     bottom: 7rem;
+    padding-top: 20%;
 }
 
 html {

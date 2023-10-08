@@ -1,0 +1,18 @@
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+$grid-gutter-width: 16rem;
+
+$font-size-base: 16rem;
+
+hr {
+    border-width: 2px; /* Your custom thickness in pixels */
+    border-color: #000; /* Optional: Change the border color */
+    border-style: solid; /* Optional: Change the border style (e.g., solid, dashed) */
+  }
+
+@import "~bootstrap/scss/bootstrap.scss";

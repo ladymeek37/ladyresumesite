@@ -1,14 +1,16 @@
 import { Routes, Route, Router, Link, BrowserRouter} from "react-router-dom";
 import "./App.css"
+// import "./custom.scss"
 
 //component imports
-import NavBar from "./components/NavBar";
+
 import AboutSection from "./components/About";
 import ProjectsSection from "./components/Projects";
 import TestimonialsSection from "./components/Testimonials";
 import ContactSection from "./components/Contact";
 //page imports
 import HomePage from "./pages/HomePage";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
