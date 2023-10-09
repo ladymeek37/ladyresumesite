@@ -24,6 +24,7 @@ and (-webkit-device-pixel-ratio: 3) {
 and (max-device-width: 768px)
 and (orientation: landscape){
     .about-container{
+
         margin-top: 0% !important;
     }
     .aboutimage{
@@ -32,6 +33,70 @@ and (orientation: landscape){
         /* Add other styles to move the image to a different location here */
       }
 
+}
+
+/* Iphone media queries 6/7/8*/
+@media only screen 
+and (min-device-height: 350px) 
+and (max-device-width: 420px)  {
+
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      }
+
+      .about-container{
+        display: block !important;
+    }
+
+}
+
+@media only screen 
+and (device-width: 844px) 
+and (device-height: 390px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      }
+
+}
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 900px) 
+and (orientation: landscape) {
+
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      } 
+
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 834px) and (orientation: portrait) {
+
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      } 
+
+    
 }
 
 

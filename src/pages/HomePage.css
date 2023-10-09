@@ -28,6 +28,14 @@
     
   }
 
+  /* @media only screen 
+and (min-device-height: 350px) 
+and (max-device-width: 420px)  {
+  .homepage{
+    position: relative;
+  }
+} */
+
 .homepage{
     padding-left: 15%;
     padding-right: 15%;
