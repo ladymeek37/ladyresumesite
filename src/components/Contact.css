@@ -55,8 +55,31 @@ and (max-device-width: 420px)  {
     .contacttext {
         padding-bottom: 3rem !important;
     }
-    
+
 }
+
+/* ipad queries */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .subjectbox{
+        width: 40rem !important;
+    }
+    .messagebox {
+        width: 40rem !important;
+}
+  }
+
+
+  @media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .subjectbox{
+        width: 32rem !important;
+    }
+    .messagebox {
+        width: 32rem !important;
+}
+   }
+
+
 
 .contactsection{
     padding-top: 8rem;

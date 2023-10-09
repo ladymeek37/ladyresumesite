@@ -28,13 +28,19 @@
     
   }
 
-  /* @media only screen 
-and (min-device-height: 350px) 
-and (max-device-width: 420px)  {
+/* iPad models */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
   .homepage{
-    position: relative;
+    padding-top: 34% !important;
   }
-} */
+}
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .homepage{
+    padding-top: 27% !important;
+  }
+}
+
 
 .homepage{
     padding-left: 15%;

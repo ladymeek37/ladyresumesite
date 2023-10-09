@@ -54,6 +54,24 @@ and (max-device-width: 420px)  {
 
 }
 
+/* iPad models */
+@media only screen and (device-width: 1024px) and (device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+   
+    .aboutimage{
+        height: 200px;
+        width:200px;
+        margin: 0 auto; 
+        display: block; 
+        /* Add other styles to move the image to a different location here */
+      }
+
+      .about-container{
+        display: block !important;
+    }
+
+
+  }
+
 @media only screen 
 and (device-width: 844px) 
 and (device-height: 390px) 
