@@ -79,6 +79,15 @@ and (max-device-width: 420px)  {
 }
    }
 
+   @media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+    .subjectbox{
+        width: 32rem !important;
+    }
+    .messagebox {
+        width: 32rem !important;
+}
+   }
+
 
 
 .contactsection{

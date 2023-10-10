@@ -41,6 +41,15 @@
   }
 }
 
+/* ipad air css */
+
+@media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+  .homepage{
+    padding-top: 47% !important;
+    padding-left: 2% !important;
+    padding-right: 0% !important;
+  }
+}
 
 .homepage{
     padding-left: 15%;

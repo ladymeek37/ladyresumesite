@@ -111,10 +111,20 @@ and (orientation: landscape) {
         width:200px;
         margin: 0 auto; 
         display: block; 
+        position: relative;
+        top: 18%;
         /* Add other styles to move the image to a different location here */
       } 
 
     
+}
+
+@media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-container{
+        margin: 0 auto !important; 
+        display: block !important; 
+    }
+
 }
 
 

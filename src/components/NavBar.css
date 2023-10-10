@@ -81,6 +81,17 @@
     }
   }
 
+  /* ipad air */
+  @media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
+    .navchoices{
+      bottom: 5% !important;
+      right: 23% !important;
+    }
+    .ladytext{
+      margin-top: 6%;
+    }
+    
+  }
 
 
 /* Only for setting up the element */
