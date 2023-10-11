@@ -37,14 +37,14 @@ const ProjectsSection = () => {
                                 <p className="projectchild projectinfotext">Using WordPress, I created the Exposure 2023 page for the biggest Women’s skateboarding event in the world! I also continually do maintenance and update the main web page according to the founder’s requests.</p>
                             </div>    
                         </div>
-                        <div>
+                        {/* <div>
                             <h2 className="titletxt"><span class="styled-underline">Skate Health</span></h2>
                             <a href='https://main.d2spnt86fte26a.amplifyapp.com' className="linktext" target="_blank">skatehealth.com</a>
                             <div className="projectcontainer">
                                 <img className="projectchild"src={SkateHealth} height='170' width='170'/>
                                 <p className="projectchild projectinfotext">For my final Capstone project through Dev Code Camp, I created this website as a tool for skateboarders to progress mentally and physically. Its a public blog-post site where anyone can log in and share! I used mySQL, Python, React, and JavaScript.</p>
                             </div> 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <hr/>
