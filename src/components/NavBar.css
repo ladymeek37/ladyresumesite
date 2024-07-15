@@ -161,18 +161,18 @@ h1{
   }
 
   ul {
-    display: flex;
-    justify-content: space-between;
     list-style-type: none;
     position: relative;
-    bottom: -40%;
+    margin: 0.4rem;
+    bottom: 26%;
+    left: 3%;
   }
 
   .navbarbody{
     margin-bottom: 0px;
     z-index: 1000;
     background-color: #eeecec;
-    height: 21%;
+    height: 10rem;
   }
 
 a{

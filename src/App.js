@@ -11,6 +11,7 @@ import ContactSection from "./components/Contact";
 //page imports
 import HomePage from "./pages/HomePage";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
         <Route path="/projects" element={<ProjectsSection />} />
         <Route path="/testimonials" element={<TestimonialsSection />} />
         <Route path="/contact" element={<ContactSection />} />
-
       </Routes>
+      <Footer />
     </div>
   );
 }

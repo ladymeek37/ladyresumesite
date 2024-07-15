@@ -1,6 +1,8 @@
 import CRLW from "../images/CRLW.png"
 import Exposure from "../images/Exposure.png"
 import SkateHealth from "../images/SkateHealth.png"
+import NH2 from "../images/NH2.png"
+import KraftIndustrialSupply from "../images/KraftIndustrial.png"
 import "./Projects.css"
 
 const ProjectsSection = () => {
@@ -17,6 +19,14 @@ const ProjectsSection = () => {
                         <h1 className="myprojstxt">Here's some of my projects:</h1>                        
                     </div>
                     <div>
+                    <div>
+                            <h2 className="titletxt"><span class="styled-underline">Nicholas J. Hanson Portfolio Site</span></h2>
+                            <a href="https://www.nicholasjhanson.com/" className="linktext" target="_blank">nicholasjhanson.com</a>
+                            <div className="projectcontainer">
+                                <img className="projectchild"src={NH2} height='130' width='165'/>
+                                <p className="projectchild projectinfotext">Using SquareSpace with Custom Code Injection and CSS, I created this custom website for my good friend Nick Hanson to showcase his work. He is a professional videographer in the skateboarding industry and it was an honor to creatively bring his vision to life.</p>
+                            </div>    
+                        </div>
                         <div>
                             <h2 className="titletxt"><span class="styled-underline">Costa Rica Live Water Properties</span></h2>
                             <a  href="http://crlwproperties.com/LaOnda" className="linktext" target="_blank">crlwproperties.com/LaOnda</a>
@@ -35,6 +45,14 @@ const ProjectsSection = () => {
                             <div className="projectcontainer">
                                 <img className="projectchild"src={Exposure} height='165' width='165'/>
                                 <p className="projectchild projectinfotext">Using WordPress, I created the Exposure 2023 page for the biggest Women’s skateboarding event in the world! I also continually do maintenance and update the main web page according to the founder’s requests.</p>
+                            </div>    
+                        </div>
+                        <div>
+                            <h2 className="titletxt"><span class="styled-underline">Kraft Industrial Supplies</span></h2>
+                            <a href="https://www.kraftindustrialsupply.com/index.html" className="linktext" target="_blank">kraftindustrialsupply.com</a>
+                            <div className="projectcontainer">
+                                <img className="projectchild"src={KraftIndustrialSupply} height='165' width='165'/>
+                                <p className="projectchild projectinfotext">By accessing the File Manager through GoDaddy, I updated the css and html files to make the website's pre-existing code and design mobile friendly. </p>
                             </div>    
                         </div>
                         {/* <div>
