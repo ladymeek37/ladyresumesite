@@ -1,8 +1,18 @@
-@media only screen
+@media (max-width: 45em) {
+  .option{
+    display: none !important;
+  } 
+}
+
+
+/* @media only screen
   and (max-device-width: 768px)
   and (orientation: portrait) {
 
-    .navbarbody{
+    .option{
+      display: none !important;
+    } */
+    /* .navbarbody{
       height:fit-content !important
     }
 
@@ -40,22 +50,22 @@
 
     ul{
       padding-left: 12% !important;
-    }
+    } */
 
 
-}
+/* }
 
 @media only screen
   and (max-device-width: 768px)
-  and (orientation: landscape){
-    .navbarbody{
+  and (orientation: landscape){ */
+    /* .navbarbody{
       height:100% !important;
-      position: fixed !important;  /* Fixed positioning to the left */
-      top: 0 !important; /* Position at the top of the screen */
-      left: 5 !important; /* Position at the left side of the screen */
-      bottom: 0 !important; /* Extend to the bottom of the screen */
-      width: 14rem !important;
-    }
+      position: fixed !important;  
+      top: 0 !important; 
+      left: 5 !important; 
+      bottom: 0 !important; 
+      width: 14rem !important; */
+    /* }
     .wdtext{
       position: relative;
       right: 2rem;
@@ -78,20 +88,20 @@
       display: block !important;
       position: relative !important;
       right:1rem !important
-    }
-  }
+    } */
+  /* } */
 
   /* ipad air */
-  @media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) {
-    .navchoices{
+  /* @media only screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-min-device-pixel-ratio: 2) { */
+    /* .navchoices{
       bottom: 5% !important;
       right: 23% !important;
     }
     .ladytext{
       margin-top: 6%;
     }
-    
-  }
+     */
+  /* } */
 
 
 /* Only for setting up the element */
